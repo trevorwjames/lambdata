@@ -11,3 +11,4 @@ TEST = pd.DataFrame(np.random.randint(10, size=10))
 x = 2
 
 
+#if __name__ == '__main__':

@@ -20,6 +20,7 @@ class Character:
         self.power += more
         return f'Power Level increase! {self.power}'
 
+
 class Wizard(Character):
     def __init__(self, name, weight, power, spells: str):
         super().__init__(name, weight, power)
@@ -29,5 +30,6 @@ class Wizard(Character):
         return 'Abrakadabra'
 
 
-
-#if __name__ == '__main__':
+if __name__ == '__main__':
+    x = Character('trevor', 200, 100)
+    print(x.weight)

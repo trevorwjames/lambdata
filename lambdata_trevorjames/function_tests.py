@@ -6,7 +6,7 @@ import unittest
 # testing two different functions in my package
 
 from lambdata_trevorjames.things import Character, Wizard
-
+# import from other modules for testing
 
 class UnitTests(unittest.TestCase):
     def test_character(self):
@@ -31,4 +31,5 @@ class UnitTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    # running tests in order to see results
     unittest.main()
